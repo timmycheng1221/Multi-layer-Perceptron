@@ -11,4 +11,20 @@
   - 調整鍵結值階段： 依照講義公式調整鍵結值。
   訓練完成後將資料集和鍵結值傳到Plot.java進行繪圖工作。
 - src/Plot.java：  
-繪製資料集(訓練+測試)的點、多層感知機訓練後的點和空間轉換後的點。
+繪製資料集(訓練+測試)的點、多層感知機訓練後的點和空間轉換後的點。  
+## 程式執行說明
+- 一開始的畫面  
+  
+![Image](https://github.com/timmycheng1221/Multi-layer-Perceptron/blob/master/images/a1.jpg)
+- 按下右上角的「Open File」→匯入資料集→「Input」方框顯示資料集  
+  
+![Image](https://github.com/timmycheng1221/Multi-layer-Perceptron/blob/master/images/a2.jpg)
+- 輸入學習率、訓練準確率和迭代次數，選擇隱藏層層數(1 ~ 4)和各隱藏層的神經元數(2 ~ 9)，輸出層固定為1顆神經元，並按下右下角的「Train」→上圖顯示訓練資料集的期望輸出，下圖顯示訓練結果(圖形、右下角的「Training Accuracy」顯示訓練準確率、「Weight」顯示訓練後各神經元的鍵結值、「RMSE」方框顯示訓練過程中均方根誤差的變化)。  
+  
+![Image](https://github.com/timmycheng1221/Multi-layer-Perceptron/blob/master/images/a3.jpg)
+- 按下右下角的「Test」，上圖顯示測試資料集的期望輸出，下圖顯示測試結果(圖形、左下角的「Testing Accuracy」顯示測試準確率)。  
+  
+![Image](https://github.com/timmycheng1221/Multi-layer-Perceptron/blob/master/images/a4.jpg)
+- 按下右下角的「Transformation」，若最後一個隱藏層的神經元為兩顆，則可以將資料集做空間轉換成二維資料，上圖顯示訓練結果(圖形)，下圖顯示測試結果(圖形)。 
+  
+![Image](https://github.com/timmycheng1221/Multi-layer-Perceptron/blob/master/images/a5.jpg)
