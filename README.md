@@ -2,7 +2,7 @@
 ## 程式簡介 
 - src/Main.java：  
 建立主要的GUI介面，先將讀入的資料夾依照期望值做排序，並利用
-![Formula](https://raw.githubusercontent.com/timmycheng1221/Multi-layer-Perceptron/master/images/f1.jpg)
+![Formula](https://raw.githubusercontent.com/timmycheng1221/Multi-layer-Perceptron/master/f1.jpg)
 函數逼近的方式將期望輸出正規化成[0, 1]之間方便多層感知機做處理，若資料集的數量少於10筆，則不會將資料集分成訓練和測試兩種，全部資料集將都會進行訓練。
 - src/MultiPerception.java：  
 多層感知機訓練前先隨機初始化各神經元的鍵結值，範圍為[-1, 1]，閥值為-1，在迭代次數內或未達到訓練準確率時：
